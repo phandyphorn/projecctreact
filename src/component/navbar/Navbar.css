@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 5px;
+    list-style: none;
+    font-size: 1rem;
+  }
+
+
+
+  /* Face problem because it seem like hover. */
+  .active {
+    color: black;
+    text-decoration: none;
+  }
+
+  
+
+  
+  
+  
+  

@@ -1,0 +1,73 @@
+
+div .box {
+    border: none;
+    border-bottom: 1px solid rgb(204, 176, 176);
+    border-top: 1px solid rgb(204, 176, 176);
+}
+
+@media screen and (min-width: 567px) {   
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+    }
+    
+    h4 {
+        padding: 0px;
+    }
+    .left-side {
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+   
+    
+    /* ============= */
+    .right-side {
+        width: 70%;
+        margin-top: 0px;
+        margin-left: 3rem;
+    }
+    
+    img {
+        width: 50%;
+        margin: auto;
+        display: block;
+        
+    }
+    
+    .content {
+        margin: 0 auto;
+    }
+    
+    p.text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cards {
+        cursor: pointer;
+    }
+
+}    
+
+@media screen and (min-width: 80px) {   
+    .home {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+} 
